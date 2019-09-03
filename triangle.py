@@ -3,9 +3,9 @@ def sides(a, b, c):
         return False
     else: 
         return True         
-a = 3
-b = 4
-c = 5
+a = int(input())
+b = int(input())
+c = int(input())
 if sides(a, b, c): 
     print("yes")  
 else: 
